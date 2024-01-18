@@ -1,5 +1,11 @@
+# Como empezar
+
+## Instalacion
+
+```sh
+pipenv shell # Inicia o crea el entorno virtual
+pipenv install flask # Una sola vez al crear el proyecto
+pipenv run start # ejecuta el comando cuando vayas a correr el proyecto
+```
 
 
-
-
-> pipenv run flask --app app run --debug --host=0.0.0.0 --port=8000
